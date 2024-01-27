@@ -1,0 +1,42 @@
+body {
+  background-color: red;
+}
+.container {
+  max-width: 580px;
+  margin: auto auto;
+  background-color: white;
+}
+
+main {
+  height: 100vh;
+}
+
+a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid red;
+  height: 50px;
+}
+
+.pokemons-list {
+  padding: 40px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.pokemon-card {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 120px;
+  width: 120px;
+}
